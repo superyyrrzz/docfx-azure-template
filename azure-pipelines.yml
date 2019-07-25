@@ -14,11 +14,6 @@ steps:
     }
   displayName: "docfx build"
 
-- task: PublishBuildArtifacts@1
-  inputs:
-    pathToPublish: _site
-    artifactName: site
-
 - task: AzureFileCopy@3
   inputs:
     sourcePath: _site
