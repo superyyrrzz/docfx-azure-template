@@ -1,6 +1,5 @@
 trigger:
 - master
-- az-devops
 
 pool:
   vmImage: windows-2019
